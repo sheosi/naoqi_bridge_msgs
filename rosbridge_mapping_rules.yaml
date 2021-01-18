@@ -1,0 +1,51 @@
+- ros1_package_name: "naoqi_bridge_msgs"
+  ros1_message_name: "AudioBuffer"
+  ros2_package_name: "naoqi_bridge_msgs"
+  ros2_message_name: "AudioBuffer"
+  fields_1_to_2:
+    channelMap: "channel_map"
+
+- ros1_package_name: "naoqi_bridge_msgs"
+  ros1_message_name: "Bumper"
+  ros2_package_name: "naoqi_bridge_msgs"
+  ros2_message_name: "Bumper"
+    stateReleased: "STATE_RELEASED"
+    statePressed: "STATE_PRESSED"
+
+- ros1_package_name: "naoqi_bridge_msgs"
+  ros1_message_name: "HandTouch"
+  ros2_package_name: "naoqi_bridge_msgs"
+  ros2_message_name: "HandTouch"
+    stateReleased: "STATE_RELEASED"
+    statePressed: "STATE_PRESSED"
+
+- ros1_package_name: "naoqi_bridge_msgs"
+  ros1_message_name: "HeadTouch"
+  ros2_package_name: "naoqi_bridge_msgs"
+  ros2_message_name: "HeadTouch"
+    buttonFront: "BUTTON_FRONT"
+    buttonMiddle: "BUTTON_MIDDLE"
+    buttonRear: "BUTTON_REAR"
+    stateReleased: "STATE_RELEASED"
+    statePressed: "STATE_PRESSED"
+
+- ros1_package_name: "naoqi_bridge_msgs"
+  ros1_message_name: "MemoryPairFloat"
+  ros2_package_name: "naoqi_bridge_msgs"
+  ros2_message_name: "MemoryPairFloat"
+  fields_1_to_2:
+    memoryKey: "memory_key"
+
+- ros1_package_name: "naoqi_bridge_msgs"
+  ros1_message_name: "MemoryPairInt"
+  ros2_package_name: "naoqi_bridge_msgs"
+  ros2_message_name: "MemoryPairInt"
+  fields_1_to_2:
+    memoryKey: "memory_key"
+
+- ros1_package_name: "naoqi_bridge_msgs"
+  ros1_message_name: "MemoryPairString"
+  ros2_package_name: "naoqi_bridge_msgs"
+  ros2_message_name: "MemoryPairString"
+  fields_1_to_2:
+    memoryKey: "memory_key"

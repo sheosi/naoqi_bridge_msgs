@@ -14,6 +14,6 @@ uint8 CHANNEL_SURROUND_RIGHT=7
 uint8 CHANNEL_SUBWOOFER=8
 uint8 CHANNEL_LFE=9
 # channel order of the current buffer
-uint8[] channelMap
+uint8[] channel_map
 # interlaced data of the audio buffer
 int16[] data

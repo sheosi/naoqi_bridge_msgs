@@ -7,5 +7,5 @@ uint8 right=0
 uint8 left=1
 uint8 back=2
 
-uint8 stateReleased=0
-uint8 statePressed=1
+uint8 STATE_RELEASED=0
+uint8 STATE_PRESSED=1
