@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 project(naoqi_bridge_msgs)
 
+set(FastRTPS_INCLUDE_DIR /opt/ros/eloquent/include) 
+set(FastRTPS_LIBRARY_RELEASE /opt/ros/eloquent/lib/libfastrtps.so)
+
 # ROS2 now supports native Windows, those flags give this compatibility
 if(NOT WIN32)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wextra")
@@ -65,9 +68,7 @@ ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()
 
-#install(
+install(
   FILES rosbridge_mapping_rules.yaml
-  DESTINATION share/${PROJECT_NAME}
-)
-
+  DESTINATION share/${PROJECT_NAME})
 

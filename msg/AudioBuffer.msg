@@ -1,5 +1,5 @@
 # timestanp the audio buffer
-Header header
+std_msgs/Header header
 # current frequency of the audio interface
 uint16 frequency
 # channel order properties :

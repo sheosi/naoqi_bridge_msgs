@@ -9,13 +9,19 @@
   ros1_message_name: "Bumper"
   ros2_package_name: "naoqi_bridge_msgs"
   ros2_message_name: "Bumper"
+  fields_1_to_2:
     stateReleased: "STATE_RELEASED"
     statePressed: "STATE_PRESSED"
+    right: "RIGHT"
+    left: "LEFT"
+    back: "BACK"
+
 
 - ros1_package_name: "naoqi_bridge_msgs"
   ros1_message_name: "HandTouch"
   ros2_package_name: "naoqi_bridge_msgs"
   ros2_message_name: "HandTouch"
+  fields_1_to_2:
     stateReleased: "STATE_RELEASED"
     statePressed: "STATE_PRESSED"
 
@@ -23,6 +29,7 @@
   ros1_message_name: "HeadTouch"
   ros2_package_name: "naoqi_bridge_msgs"
   ros2_message_name: "HeadTouch"
+  fields_1_to_2:
     buttonFront: "BUTTON_FRONT"
     buttonMiddle: "BUTTON_MIDDLE"
     buttonRear: "BUTTON_REAR"
